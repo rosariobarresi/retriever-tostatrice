@@ -1,0 +1,12 @@
+scheduler:
+  useexcel: true
+  filename: C:/Users/Roberta/Desktop/connesione macchinette/non_toccare/dati_macchinette
+#  filename: dati_macchinette
+  endpointurls: opc.tcp://192.168.1.80:63840, opc.tcp://192.168.1.201:63840, opc.tcp://192.168.1.81:63840
+#  endpointurls: opc.tcp://localhost:12686/milo
+#  destfolder: C:\\Users\\RosarioBarresi\\Documents
+#  destfolder: C:\\Users\\Roberta\\Documents\\connesione macchinette
+  destfolder: C:\\Users\\Roberta\\Desktop\\connesione macchinette
+  nodi: 2#HMI_ProdTotale, 2#HMI_dProdParziale
+  #, 2#HMI_dProdVoluta, 2#HMI_lrVelMacchina, 2#OrdIn_Lotto, 2#OrdIn_NrOrdine, 2#OrdIn_NrPezzi, 2#OrdIn_NrRicetta, 2#OrdOn_Lotto, 2#OrdOn_NrOrdine, 2#OrdOn_NrPezzi, 2#OrdOn_NrRicetta, 2#Report_MacchinaOnAlarm_MinP, 2#Report_MacchinaOnAlarm_Ore, 2#Report_MacchinaOnAlarm_Min
+#  nodi: 2#OrdOn_Lotto, 2#OrdIn_NrOrdine, 2#HMI_dProdParziale, 2#HMI_ProdTotale, 2#OrdOn_NrRicetta, 2#OrdIn_NrRicetta, 2#OrdIn_Lotto, 2#OrdOn_NrPezzi, 2#HMI_dProdVoluta, 2#OrdIn_NrPezzi, 2#HMI_lrVelMacchina, 2#OrdOn_NrOrdine, 2#Report_MacchinaOnNoAlm_MinP, 2#Report_MacchinaOnNoAlm_Ore, 2#Report_MacchinaOnNoAlm_OreP, 2#Report_MacchinaOnNoAlm_Sec, 2#Report_MacchinaOnNoAlm_SecP, 2#Report_MacchinaRunning_Min, 2#Report_MacchinaRunning_MinP, 2#Report_MacchinaRunning_Ore, 2#Report_MacchinaRunning_OreP, 2#Report_MacchinaRunning_Sec, 2#Report_MacchinaRunning_SecP, 2#Report_ScartiCtrlVisivoFondo, 2#HMI_ActNrScartiConsecutivi1, 2#xMacchinaInAllarme, 2#xMacchinaPronta, 2#xManSelezionato, 2#xSingSelezionato, 2#xAutSelezionato, 2#xCicloAvviato, 2#RicettaAttiva, 2#Report_MacchinaOn_Min, 2#Report_MacchinaOn_MinP, 2#Report_MacchinaOn_Ore, 2#Report_MacchinaOn_OreP, 2#Report_MacchinaOn_Sec, 2#Report_MacchinaOn_SecP, 2#Report_MacchinaOnAlm_Min, 2#Report_MacchinaOnAlm_MinP, 2#Report_MacchinaOnAlm_Ore, 2#Report_MacchinaOnAlm_OreP, 2#Report_MacchinaOnAlm_Sec, 2#Report_MacchinaOnAlm_SecP, 2#Report_MacchinaOnNoAlm_Min
